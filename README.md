@@ -1,6 +1,11 @@
 # Computing Methods
+## introduction
+
+This repository contains C++ code two numerical methods used in computing. The methods include are the **secant method** and the false position method. The secant method is a root-finding algorithm that uses a succession of roots of secant lines to better approximate a root of a function f. The **false position** method is a root-finding algorithm that uses a succession of roots of secant lines combined with the bisection method to approximate the roots of a function. The code is written in C++ and can be run in any C++ compiler.
 
 ## secant method for finding roots of a function
+- below is the code for the secant method
+
 ``` c++ 
 #include <iostream>
 #include<cmath>
@@ -60,6 +65,8 @@ int main() {
 	
 }
 ```
+This C++ code is implementing the Secant Method, which is a root-finding algorithm that uses a succession of roots of secant lines to better approximate a root of a function f. Here's a step-by-step breakdown:
+
 The main function starts by printing a title, then prompts the user to input a tolerable error, maximum number of iterations, and two initial guesses.
 
 These inputs are then passed to the secant function.
@@ -148,7 +155,7 @@ int main(){
 
 This C++ code is implementing the False Position (or Regula Falsi) method, which is a root-finding algorithm that uses a succession of roots of secant lines combined with the bisection method to approximate the roots of a function.
 
-Here's a step-by-step breakdown:
+a step-by-step breakdown is given below:
 
 The main function starts by printing a title, then enters a loop where it prompts the user to input two initial guesses and a tolerable error.
 
